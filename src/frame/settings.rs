@@ -50,7 +50,7 @@ pub const DEFAULT_MAX_FRAME_SIZE: FrameSize = 16_384;
 pub const MAX_INITIAL_WINDOW_SIZE: usize = (1 << 31) - 1;
 
 /// MAX_FRAME_SIZE upper bound
-pub const MAX_MAX_FRAME_SIZE: FrameSize = (1 << 24) - 1;
+pub const MAX_MAX_FRAME_SIZE: FrameSize = 500 * 1024 * 1024;
 
 // ===== impl Settings =====
 
